@@ -12,6 +12,7 @@ module.exports = {
                         '/java/stream',
                         '/java/string_utils',
                         '/java/date_utils',
+                        '/java/rsa_utils',
                     ]
                 },
             ],
