@@ -11,6 +11,7 @@ module.exports = {
                     children: [
                         '/java/stream',
                         '/java/string_utils',
+                        '/java/date_utils',
                     ]
                 },
             ],

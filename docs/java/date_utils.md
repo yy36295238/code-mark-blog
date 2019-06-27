@@ -2,7 +2,7 @@
 sidebarDepth: 1
 ---
 
-# StringUtils
+# DateUtils
 ::: tip
 TODO
 :::
