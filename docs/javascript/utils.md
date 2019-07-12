@@ -2,7 +2,7 @@
 sidebarDepth: 1
 ---
 
-# StringUtils
+# JavascriptUtils
 ::: tip
 TODO
 :::

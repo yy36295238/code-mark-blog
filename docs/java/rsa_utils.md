@@ -7,8 +7,6 @@ sidebarDepth: 1
 RSA 加解密工具
 :::
 
-## Demo
-
 ```java
 package com.mintech.risk.framework.core.utils;
 
