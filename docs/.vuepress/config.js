@@ -8,7 +8,7 @@ module.exports = {
                 title: 'java',
                 collapsable: false,
                 children: [
-                    '/java/Stream',
+                    '/java/Streams',
                     '/java/StringUtils',
                     '/java/DateUtils',
                     '/java/RsaUtils',
