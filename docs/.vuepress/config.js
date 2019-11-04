@@ -22,6 +22,13 @@ module.exports = {
                     '/javascript/utils',
                 ]
             },
+            {
+                title: 'git',
+                collapsable: false,
+                children: [
+                    '/git/git',
+                ]
+            },
         ]
     }
 }
