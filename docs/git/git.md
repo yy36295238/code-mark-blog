@@ -106,6 +106,12 @@ git pull
 
 git fetch 获取远程仓库中所有的分支到本地
 
+### 取消版本控制
+
+> git bash here
+
+find . -name ".git" | xargs rm -rf
+
 ### 忽略已加入到版本库中的文件
 
 git update-index --assume-unchanged file 忽略单个文件
