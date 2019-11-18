@@ -13,6 +13,7 @@ module.exports = {
                     '/java/DateUtils',
                     '/java/RsaUtils',
                     '/java/Maps',
+                    '/java/Spel',
                 ]
             },
             {
