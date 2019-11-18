@@ -8,7 +8,7 @@ RSA 加解密工具
 :::
 
 ```java
-package com.mintech.risk.framework.core.utils;
+package com.yyself.risk.framework.core.utils;
 
 import org.apache.commons.codec.binary.Base64;
 import org.apache.commons.io.IOUtils;

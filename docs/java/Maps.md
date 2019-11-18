@@ -8,7 +8,7 @@ sidebarDepth: 1
 :::
 
 ```java
-package com.mintech.risk.core.utils;
+package com.yyself.risk.core.utils;
 
 import lombok.extern.slf4j.Slf4j;
 
