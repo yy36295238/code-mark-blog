@@ -213,3 +213,33 @@ public void partTest() {
     System.out.println(part);
 }
 ```
+
+##### 对象去重
+```java
+/**
+* 对象去重
+*/
+@Test
+public void removeRepeat() {
+    List<User> newList = list.stream().collect(
+            Collectors.collectingAndThen(
+                    Collectors.toCollection(() -> new TreeSet<>(Comparator.comparing(u -> u.getName() + u.getAge()))), ArrayList::new));
+    System.out.println(newList);
+}
+```
+
+##### 排序
+```java
+
+/**
+* 排序
+*/
+@Test
+public void sort() {
+    //根据年龄是否小于等于30来分区
+    final List<User> newList1 = list.stream().sorted((a, b) -> a.age - b.age).collect(toList());
+    final List<User> newList2 = list.stream().sorted(Comparator.comparingInt(a -> a.age)).collect(toList());
+    System.out.println(newList1);
+    System.out.println(newList2);
+}
+```
