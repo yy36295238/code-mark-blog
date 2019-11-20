@@ -106,6 +106,8 @@ git pull
 
 git fetch 获取远程仓库中所有的分支到本地
 
+git remote remove origin 删除关联远程仓库
+
 ### 取消版本控制
 
 > git bash here
